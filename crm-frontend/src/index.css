@@ -9,15 +9,16 @@
 }
 
 body {
-    @apply bg-sand-50 text-ink-900 font-body;
+    @apply bg-sand-50 text-ink-950 font-body;
 }
 
 .page-shell {
     @apply min-h-screen px-4 py-10 md:px-8;
-    background: radial-gradient(circle at top, rgba(20, 184, 166, 0.15), transparent 55%),
-        linear-gradient(120deg, rgba(15, 118, 110, 0.08), transparent 60%);
+    background: radial-gradient(circle at 12% 6%, rgba(42, 157, 143, 0.2), transparent 45%),
+        radial-gradient(circle at 88% 0%, rgba(17, 26, 44, 0.12), transparent 35%),
+        linear-gradient(150deg, rgba(245, 247, 251, 0.96), rgba(232, 238, 246, 0.96));
 }
 
 .card {
-    @apply bg-white/80 border border-sand-200 rounded-2xl shadow-card backdrop-blur;
+    @apply bg-white/85 border border-sand-200 rounded-2xl shadow-card backdrop-blur;
 }

@@ -13,3 +13,8 @@ INFO 2026-04-29 14:55:13,866 crm.audit login_success user=ikiwoly@gmail.com ip=1
 INFO 2026-04-29 15:02:27,107 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
 INFO 2026-04-29 15:04:46,171 crm.audit login_success user=kaka@gmail.com ip=127.0.0.1
 INFO 2026-04-29 15:08:26,277 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 15:52:55,025 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 15:56:35,185 crm.audit login_failed user=admin ip=127.0.0.1
+INFO 2026-04-29 15:56:45,847 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 15:59:57,263 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 16:01:11,721 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
