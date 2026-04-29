@@ -1,0 +1,15 @@
+INFO 2026-04-29 11:22:10,724 crm.audit login_success user=kaka@gmail.com ip=127.0.0.1
+INFO 2026-04-29 11:22:33,200 crm.audit admin_action user_id=1 content_type=3 object_id=1 action_flag=2 message=[{"changed": {"fields": ["Superuser status"]}}]
+INFO 2026-04-29 11:23:59,603 crm.audit admin_action user_id=2 content_type=3 object_id=1 action_flag=2 message=[{"changed": {"fields": ["Superuser status"]}}]
+INFO 2026-04-29 11:24:10,680 crm.audit admin_action user_id=2 content_type=3 object_id=2 action_flag=2 message=[{"changed": {"fields": ["Superuser status"]}}]
+INFO 2026-04-29 11:25:43,847 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 11:25:55,897 crm.audit admin_action user_id=1 content_type=3 object_id=2 action_flag=3 message=
+INFO 2026-04-29 11:27:26,133 crm.audit login_success user=kaka@gmail.com ip=127.0.0.1
+INFO 2026-04-29 11:28:24,694 crm.audit login_failed user=kaka ip=127.0.0.1
+INFO 2026-04-29 11:45:08,590 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 11:46:12,651 crm.audit login_success user=dada@gmail.com ip=127.0.0.1
+INFO 2026-04-29 14:54:48,571 crm.audit admin_action user_id=1 content_type=3 object_id=1 action_flag=2 message=[{"changed": {"fields": ["First name", "Last name"]}}]
+INFO 2026-04-29 14:55:13,866 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 15:02:27,107 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-04-29 15:04:46,171 crm.audit login_success user=kaka@gmail.com ip=127.0.0.1
+INFO 2026-04-29 15:08:26,277 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1

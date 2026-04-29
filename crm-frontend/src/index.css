@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light;
+}
+
+body {
+    @apply bg-sand-50 text-ink-900 font-body;
+}
+
+.page-shell {
+    @apply min-h-screen px-4 py-10 md:px-8;
+    background: radial-gradient(circle at top, rgba(20, 184, 166, 0.15), transparent 55%),
+        linear-gradient(120deg, rgba(15, 118, 110, 0.08), transparent 60%);
+}
+
+.card {
+    @apply bg-white/80 border border-sand-200 rounded-2xl shadow-card backdrop-blur;
+}
