@@ -106,5 +106,4 @@ VITE_CRM_API_URL=http://localhost:8000
 - If tokens expire, refresh occurs automatically; logout/login if needed.
 - If logs do not appear, restart the backend after changing logging config.
 
-## License
-MIT
+
