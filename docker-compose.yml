@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./crm-backend
+    env_file:
+      - ./crm-backend/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./crm-backend/db.sqlite3:/app/db.sqlite3
+      - ./crm-backend/logs:/app/logs
+    command: >
+      sh -c "python manage.py migrate &&
+             gunicorn crm_project.wsgi:application --bind 0.0.0.0:8000"
+
+  frontend:
+    build:
+      context: ./crm-frontend
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000}
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
