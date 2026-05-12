@@ -18,3 +18,4 @@ INFO 2026-04-29 15:56:35,185 crm.audit login_failed user=admin ip=127.0.0.1
 INFO 2026-04-29 15:56:45,847 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
 INFO 2026-04-29 15:59:57,263 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
 INFO 2026-04-29 16:01:11,721 crm.audit login_success user=ikiwoly@gmail.com ip=127.0.0.1
+INFO 2026-05-12 12:05:13,376 crm.audit login_failed user=admin ip=127.0.0.1
